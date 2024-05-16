@@ -6,7 +6,11 @@ const initState = {
 
 function App() {
 	const [state, dispatch] = useReducer(reducer, initState);
-	return <></>;
+	return (
+		<>
+			<h1>Syimyk</h1>
+		</>
+	);
 }
 
 export default App;
